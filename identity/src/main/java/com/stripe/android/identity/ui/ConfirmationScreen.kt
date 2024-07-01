@@ -95,7 +95,7 @@ internal fun ConfirmationScreen(
                     )
                 }
                 Text(
-                    text = successPage.title,
+                    text = "Done",
                     modifier = Modifier
                         .fillMaxWidth()
                         .padding(
@@ -109,7 +109,7 @@ internal fun ConfirmationScreen(
                 )
 
                 Html(
-                    html = successPage.body,
+                    html = "<p>Click Complete to move on.</p>",
                     modifier = Modifier
                         .padding(bottom = dimensionResource(id = R.dimen.stripe_item_vertical_margin))
                         .semantics {
